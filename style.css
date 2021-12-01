@@ -1,0 +1,37 @@
+body,html,img{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+div{
+
+    margin: 3px 3px 0px 0px;
+    background-color: white;
+    float: right;
+    width: 70%;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    position: absolute;
+    background-size: cover;
+    background-position: right;
+    text-align: right;
+    
+  
+}
+.right,p{
+    padding-right: 5px;
+}
+p {
+    font-weight: bold;
+    height: 100%;
+    font-size: 12px;
+
+}
